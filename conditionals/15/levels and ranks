@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int level = 12;
+
+  if (level >= 1 && level <=5){
+    cout<<"🥉 Bronze";
+  }
+  else if(level >=6 && level <= 10){
+    cout<<"🥈 Silver";
+  }
+  else if(level >= 11 && level <= 15){
+    cout<<"🥇 Gold";
+  }
+  else if(level >=16 && level <=20){
+    cout<<"🏅 Platinum";
+  }
+  else{
+    cout<<"💎 Diamond";
+  }
+  return 0;   
+}
