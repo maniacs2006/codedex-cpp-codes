@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int age;
+  bool citizen = true;
+  bool registered = true;
+
+  cout<<"enter age: ";
+  cin>>age;
+  
+  if(age>= 18 && citizen == true && registered == true){
+    cout<<"you can vote";
+  }
+  else if(age < 18){
+    cout<<"you are not old enough to vote";
+  }
+  else if(citizen == false){
+    cout<<"you are not eligible to vote";
+  }
+  else if(registered==false){
+    cout<<"you need to register first";
+  }
+  else{
+    cout<<"requirements not met";
+  }
+  }
