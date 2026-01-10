@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int answer =64;
+  int guess_num ;
+  cout<<"guess the number: ";
+  cin>>guess_num;
+  
+while (answer != guess_num) { 
+  cout<<"guess the number: ";
+  cin>>guess_num;
+}
+cout<<"you guessed it correct!";
+}
