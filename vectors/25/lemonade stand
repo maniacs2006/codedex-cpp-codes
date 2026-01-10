@@ -1,0 +1,13 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+  vector<int>lemonade = {25, 28, 40, 85, 76};
+  vector<double>sales = {75.50, 89.25, 60.00, 102.45, 95.10};
+  
+  cout<<lemonade[4]<<endl;
+  cout<<sales[4]<<endl;
+  cout<<sales[4] / lemonade[4]<<endl;
+  cout<<lemonade[9];
+}
