@@ -1,0 +1,31 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main(){
+  srand(time(NULL));
+  int answer = rand() % 6;
+  if(answer == 0){
+    cout<<"🥠 Don't pursue happiness – create it.";
+  }
+  else if(answer == 1){
+    cout<<"🥠 All things are difficult before they are easy.";
+  }
+  else if(answer == 2){
+    cout<<"🥠 The early bird gets the worm, but the second mouse gets the cheese.";
+  }
+  else if(answer == 3){
+    cout<<"🥠 Someone in your life needs a letter from you.";
+  }
+  else if(answer == 4){
+    cout<<"🥠 The fortune you search for is in another cookie.";
+  }
+  else{
+    cout<<"🥠 Help! I'm being held prisoner in a Chinese bakery!";
+  }
+  cout<<"\nlucky numbers: ";
+  for(int i = 0; i< 6; i++){
+      int luckynum = rand() % 51;
+    cout<<luckynum<<" ";
+  }
+}
