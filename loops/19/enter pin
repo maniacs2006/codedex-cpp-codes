@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() { 
+  int pin = 0; 
+
+  cout << "BANK OF CODÉDEX\n\n"; 
+
+  cout << "Enter your PIN: "; 
+  cin >> pin; 
+
+  while (pin != 1234) { 
+    cout << "Incorrect PIN. Enter your PIN again: "; 
+    cin >> pin; 
+  } 
+
+  if (pin == 1234) { 
+    cout << "PIN accepted!"; 
+  } 
+}
