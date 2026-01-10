@@ -1,0 +1,47 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "==================\n";
+  cout << "Welcome to Trivia!\n";
+  cout << "==================\n";
+  cout<<"Q1) What is the name of the world's longest river? 💧\n\n";
+  cout << "1) Missouri River\n";
+  cout << "2) Nile\n";
+  cout << "3) Amazon River\n";
+  cout << "4) Yangtze River\n";
+  int ans;
+  cin>>ans;
+  if(ans== 2){
+    cout<<"correct!"<<endl;
+  }
+  else{
+    cout<<"sorry"<<endl;
+  }
+  cout << "Q2) How many bones are in the human body? 🦴\n\n";
+  cout << "1) 92\n";
+  cout << "2) 150\n";
+  cout << "3) 206\n";
+  cout << "4) 10\n";
+  int ans2;
+  cin>>ans2;
+  if(ans2==3){
+    cout<<"correct!"<<endl;
+  }
+  else{
+    cout<<"sorry"<<endl;
+  }
+  cout << "Q3) What food never spoils? 😷\n\n";
+  cout << "Type your answer: ";
+  string ans3;
+  cin>>ans3;
+  if (ans3 == "honey" || ans3 == "Honey") {
+    cout << "You got it correct!\n";
+  } 
+  else {
+    cout << "I'm sorry...\n";
+  }
+
+  cout << "You completed the quiz!\n";
+
+}
