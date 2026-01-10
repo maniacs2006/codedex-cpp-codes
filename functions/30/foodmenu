@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+void welcome(){
+  cout<<"Welcome to Laziza BBQ's Diner!\n";
+  cout<<"Here's the menu:\n";
+  cout<<"1. 🍔 Cheeseburger\n";
+  cout<<"2. 🍟 Fries\n";
+  cout<<"3. 🥤 Soda\n";
+  cout<<"4. 🍦 Ice Cream\n";
+  cout<<"5. 🍪 Cookie\n\n";
+  }
+
+int main(){
+  welcome();
+  welcome();
+}
