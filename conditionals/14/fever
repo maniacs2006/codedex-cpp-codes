@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int temp;
+
+  cout<<"enter your temp in fahrenheit: ";
+  cin>>temp;
+
+  if (temp> 100){
+    cout<<"you have a fever.🤒";
+  }
+  else{
+    cout<<"You do not have a fever. 🕺";
+  }
+return 0;  
+}
