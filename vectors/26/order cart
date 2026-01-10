@@ -1,0 +1,20 @@
+#include <iostream>
+#include <vector>
+#include <string>
+using namespace std;
+
+int main() {
+  vector<string>cart = {"Chicago styled pizza",
+"Potato salad",
+"Mountain Dew"};
+cart.push_back("Chipotle sauce");
+cart.pop_back();
+
+cout<<cart[0]<<endl;
+cout<<cart[1]<<endl;
+cout<<cart[2]<<endl;
+cout<<cart.size();
+  
+
+  
+}
