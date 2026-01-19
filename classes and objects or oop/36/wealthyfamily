@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class WealthyFamily{
+  public:
+  string name;
+  int networth;
+};
+
+int main(){
+  WealthyFamily Ahmad;
+  Ahmad.name = "Ahmad Family";
+  Ahmad.networth = 796967;
+
+  cout<<Ahmad.name<<"\n";
+  cout<<Ahmad.networth<<"\n";
+}
+  
